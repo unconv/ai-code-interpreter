@@ -1,0 +1,4 @@
+the name = "Jack"
+the age = 28
+
+say "My name is " name ", I am " age " years old"

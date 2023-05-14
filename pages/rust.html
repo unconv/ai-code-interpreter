@@ -1,0 +1,10 @@
+<h2>My First Rust Website</h2>
+<?rust
+use webdev::Request;
+let request = Request::get();
+
+let name = request.param("name");
+let age = request.param("age");
+
+println!( "Hi, " + name.as_str() + ", your age is " + age.parse().as_str() )
+?>

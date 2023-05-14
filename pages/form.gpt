@@ -1,0 +1,6 @@
+the form = Form {
+    TextInput { Name, name }
+    TextInput { Age, age }
+}
+
+form.render( with_labels = true ).with_action( "/index.php?page=handle.gpt", "POST" )

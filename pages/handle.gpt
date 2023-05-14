@@ -1,0 +1,7 @@
+the name = POST.get( "name" )
+the age = POST.get( "age" )
+
+should get_name_gender( name ) == Male:
+    say "Hi, man! What's up? Your age is" age
+otherwise:
+    say "What's up girl! You are " age " years old"
